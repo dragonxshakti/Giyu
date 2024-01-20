@@ -14,25 +14,25 @@ class Config(object):
     # REQUIRED
     # Login to https://my.telegram.org and fill in these slots with the details given by it
 
-    API_ID = "" # integer value, dont use ""
-    API_HASH = ""
-    TOKEN = ""  # This var used to be API_KEY but it is now TOKEN, adjust accordingly. 
-    CO_OWNER_ID = "" 
-    CO_OWNER_USERNAME = ""
-    OWNER_ID = ""  # If you dont know, run the bot and do /id in your private chat with it, also an integer
-    OWNER_USERNAME = ""
-    BOT_USERNAME = ""
-    BOT_ID = ""
-    SUPPORT_CHAT = ""  # Your own group for support, do not add the @
+    API_ID = "20457610" # integer value, dont use ""
+    API_HASH = "b7de0dfecd19375d3f84dbedaeb92537"
+    TOKEN = "6980957140:AAHywBOVsxExbyrynVyrWKDr_znO87dQjBE"  # This var used to be API_KEY but it is now TOKEN, adjust accordingly. 
+    CO_OWNER_ID = "6890857225" 
+    CO_OWNER_USERNAME = "papa_of_telegram"
+    OWNER_ID = "6890857225"  # If you dont know, run the bot and do /id in your private chat with it, also an integer
+    OWNER_USERNAME = "papa_of_telegram"
+    BOT_USERNAME = "Cheems_x_Music_Bot"
+    BOT_ID = "6980957140"
+    SUPPORT_CHAT = "lamo"  # Your own group for support, do not add the @
     JOIN_LOGGER = (
-        ""
+        "-1001977783984"
     )  # Prints any new group the bot is added to, prints just the name and ID.
     EVENT_LOGS = (
-        ""
+        "-1001977783984"
     )  # Prints information like gbans, sudo promotes, AI enabled disable states that may help in debugging and shit
 
     # RECOMMENDED
-    DATABASE_URL = ""  # needed for any database modules
+    DATABASE_URL = "mongodb+srv://vinamratiwari579:IuhMTKnYMO1nR8lm@cluster0.oezxipv.mongodb.net/?retryWrites=true&w=majority"  # needed for any database modules
     LOAD = []
     NO_LOAD = "rss"
     WEBHOOK = False
@@ -62,12 +62,12 @@ class Config(object):
     ALLOW_EXCL = True  # Allow ! commands as well as / (Leave this to true so that blacklist can work)
     ALLOW_CHATS = True 
     CASH_API_KEY = (
-        ""  # Get your API key from https://www.alphavantage.co/support/#api-key
+        "7ORLW6TQGZKP8R59"  # Get your API key from https://www.alphavantage.co/support/#api-key
     )
-    TIME_API_KEY = ""  # Get your API key from https://timezonedb.com/api
-    MONGO_DB_URI = ""
+    TIME_API_KEY = "NEIU5O1GPLQJ"  # Get your API key from https://timezonedb.com/api
+    MONGO_DB_URI = "mongodb+srv://vinamratiwari579:IuhMTKnYMO1nR8lm@cluster0.oezxipv.mongodb.net/?retryWrites=true&w=majority"
     WALL_API = (
-        ""  # For wallpapers, get one from https://wall.alphacoders.com/api.php
+        ""  # For wallpapers, get one from 
     )
     REM_BG_API_KEY = "" 
     TEMP_DOWNLOAD_DIRECTORY = "/tmp"
